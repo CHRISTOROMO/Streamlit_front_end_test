@@ -1,7 +1,7 @@
 from random import random
 from turtle import color
 import streamlit as st
-import tkinter
+import tkinter as TK
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
