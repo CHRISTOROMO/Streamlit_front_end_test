@@ -75,7 +75,7 @@ with model_training:
         cls = RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimators)
   
         
-    input_feature = sel_col.text_input('Which feature should be used as input? ', 'alcohol')
+    input_feature = sel_col.text_input('Which feature should be used as input? ', 'pH')
     
     sel_col.text('Here is the list of Features: ')
     sel_col.write(wine.columns) 
