@@ -60,7 +60,7 @@ with features:
 
 with model_training:     
     st.header('Time to model!')
-    st.text('This is a model that will help you to predict the outcome of the hospital')
+    st.text('This is a model that will help you to predict the outcome of the classification')
     
     sel_col = st.container()
     disp_col = st.container()
